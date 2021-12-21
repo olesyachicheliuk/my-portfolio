@@ -1,3 +1,27 @@
 body {
   background-color: snow;
 }
+
+p::before {
+  content: "";
+  display: block;
+  width: 100px;
+  height: 100px;
+  background-color: red;
+}
+
+p::after {
+  content: "######";
+}
+
+.h1 {
+  color: green;
+}
+
+h1 {
+  color: blue !important;
+}
+
+img[src] {
+  border: 1px black solid;
+}
