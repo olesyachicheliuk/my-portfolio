@@ -1,0 +1,40 @@
+table {
+  width: 100%;
+}
+
+thead {
+  background-color: aliceblue;
+}
+
+td {
+  padding: 10px;
+}
+
+table th,
+table td {
+  text-align: center;
+}
+
+.f1 {
+  width: 150px;
+  height: 150px;
+  background-color: tomato;
+}
+
+.f4 {
+  width: 0px;
+  height: 0px;
+  border: 100px solid black;
+  border-bottom-color: red;
+  border-left-color: green;
+  border-radius: 50%;
+  transform: skew(30px);
+}
+
+.f7 {
+  width: 0;
+  height: 0;
+  border-radius: 50%;
+  border: 100px solid orange;
+  border-right-color: transparent;
+}

@@ -1,0 +1,16 @@
+body {
+  padding-top: 50px;
+}
+
+.item {
+  padding: 5px;
+  text-align: center;
+  margin: 5px;
+  background-color: tomato;
+  color: white;
+  font-size: 55px;
+}
+
+.container {
+  display: flex;
+}
